@@ -560,7 +560,7 @@ NAV_ITEMS = [
     ("grid_view", "Explore Clusters"),
 ]
 _NBSP = "\u00A0" * 6
-NAV_OPTIONS = [f":material/{icon}:{_NBSP}{label}" for icon, label in NAV_ITEMS]
+NAV_OPTIONS = [f":material/{icon}: {'\u00A0' * 6}{label}" for icon, label in NAV_ITEMS]
 
 with st.sidebar:
     st.markdown("<div class='pd-brand'>PitchPulse</div>", unsafe_allow_html=True)
