@@ -163,9 +163,10 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label:has(input:checked)
 section[data-testid="stSidebar"] div[role="radiogroup"] label:has(input:checked) * {
   color: #241F2E !important;
 }
-section[data-testid="stSidebar"] div[role="radiogroup"] label > div:first-child {
+section[data-testid="stSidebar"] div[role="radiogroup"] label > *:not(:last-child) {
   display: none !important;
   width: 0 !important;
+  height: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
 }
