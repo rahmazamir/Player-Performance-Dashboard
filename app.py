@@ -175,6 +175,16 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label [data-baseweb="rad
   margin: 0 !important;
   padding: 0 !important;
 }
+section[data-testid="stSidebar"] div[role="radiogroup"] label::before,
+section[data-testid="stSidebar"] div[role="radiogroup"] label::after {
+  display: none !important;
+  content: none !important;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] label * ::before,
+section[data-testid="stSidebar"] div[role="radiogroup"] label * ::after {
+  display: none !important;
+  content: none !important;
+}
 section[data-testid="stSidebar"] input[type="radio"] {
   opacity: 0;
   width: 0;
