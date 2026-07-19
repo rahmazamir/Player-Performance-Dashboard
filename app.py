@@ -571,7 +571,7 @@ def engineer_features(df):
 # SIDEBAR — data source + navigation
 # ----------------------------------------------------------------------------
 NAV_ITEMS = [
-    ("dashboard", "Ddsasadashboard"),
+    ("dashboard", "Dashboard"),
     ("search", "Player Search"),
     ("people", "Compare Players"),
     ("leaderboard", "League Overview"),
