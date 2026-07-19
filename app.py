@@ -575,6 +575,7 @@ with st.sidebar:
     # Strip the ":material/xxx: " icon shortcode back off so the rest of the
     # app can keep comparing against plain page names like "Dashboard".
     page = page_choice.split(": ", 1)[1] if ": " in page_choice else page_choice
+    page = page.replace("\u00A0", "").strip()
 
     st.markdown("---")
     st.markdown("<div class='pd-section-label'>Data source</div>", unsafe_allow_html=True)
