@@ -164,7 +164,16 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label:has(input:checked)
   color: #241F2E !important;
 }
 section[data-testid="stSidebar"] div[role="radiogroup"] label > div:first-child {
-  display: none;
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+section[data-testid="stSidebar"] div[role="radiogroup"] label [data-baseweb="radio"] {
+  display: none !important;
+  width: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 section[data-testid="stSidebar"] input[type="radio"] {
   opacity: 0;
