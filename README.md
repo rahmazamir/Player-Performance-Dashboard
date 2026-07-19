@@ -6,6 +6,8 @@ Dedicated to Cape Verde's second goal against Argentina, the only match I watche
 
 Built with Python, Streamlit, Plotly, and scikit-learn.
 
+Check it out at https://pitchpulse.streamlit.app/
+
 ## Features
 
 - **Dashboard** — headline numbers at a glance: players tracked, average market value, top scorer goals, clubs covered.
